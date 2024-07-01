@@ -45,14 +45,16 @@ img {
     max-width: 600px;
     margin: 10px auto;
 }
-a {
+.link {
     text-decoration: none;
     cursor: pointer;
     background-color: white;
     color: #2c90af;
     font-weight: 500;
     font-size: 1.2rem;
-    padding: 6px;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    width: 7rem;
 }
 .link:hover, .link:active {
 font-size: 1rem;
