@@ -20,7 +20,7 @@ const formattedSeconds = String(seconds).padStart(2, "0");
 
 const time = `${formattedHour}:${formattedMinutes}:${formattedSeconds}`;
 // console.log(time)
-currentTime.textContent = "Current time is:" + time;
+currentTime.textContent = "Time: " + time;
 
 
 // for day
@@ -28,10 +28,10 @@ const day = currentCompleteTime.getDay();
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const today = days[day];
 // console.log(today)
-currentDay.textContent = "Today is: " + today ;
+currentDay.textContent = "Day: " + today ;
 
 
 }
 
 setInterval(updateTime, 1000)
-updateTime()
+updateTime();
