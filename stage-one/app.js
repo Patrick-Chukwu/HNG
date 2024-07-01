@@ -11,4 +11,5 @@ currentTime.textContent = time;
 // for day
 const day = currentCompleteTime.getDay();
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-currentDay.textContent = days[day];
+const today = days[day];
+currentDay.textContent = "Today is: " + today ;
