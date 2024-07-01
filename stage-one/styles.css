@@ -65,11 +65,15 @@ color: white;
 } */
  section {
     background-color: black;
+    min-height: 60dvh;
+    padding: 3rem 1rem;
  }
 .vision {
     background-color: #fff;
     padding: 1rem;
     margin: 1rem auto;
+    padding: 3rem 1rem;
+    margin-top: 20%;
 }
 .footer p {
     font-size: 1.2rem;
