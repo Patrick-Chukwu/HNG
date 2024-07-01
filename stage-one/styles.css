@@ -20,11 +20,11 @@ body {
     background: rgb(34,55,195);
     background: radial-gradient(circle, rgba(34,55,195,1) 0%, rgba(45,184,253,1) 100%);  
        color: #fff; 
-    gap: 8px;
+    gap: 16px;
     padding: 16px 0;
 
-    /* height: 100vh;
-    height: 100dvh; */
+    min-height: 100vh;
+    min-height: 100dvh;
 
 }
 .row {
