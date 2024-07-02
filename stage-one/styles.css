@@ -46,8 +46,9 @@ body {
 img {
 
     background: rgb(34,55,195);
-    background: radial-gradient(circle, rgba(34,55,195,1) 0%, rgba(45,184,253,1) 100%);  
-         max-width: 100%;
+    background: radial-gradient(circle, rgba(34,55,195,1) 0%, rgba(45,184,253,1) 100%); 
+    max-width: 100%; 
+    max-height: auto;
 }
 
 .text {
