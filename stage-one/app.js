@@ -28,7 +28,7 @@ const day = currentCompleteTime.getDay();
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const today = days[day];
 // console.log(today)
-currentDay.textContent = "Day: " + today ;
+currentDay.textContent = today ;
 
 
 }
