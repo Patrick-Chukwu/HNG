@@ -20,7 +20,7 @@ const formattedSeconds = String(seconds).padStart(2, "0");
 
 const time = `${formattedHour}:${formattedMinutes}:${formattedSeconds}`;
 // console.log(time)
-currentTime.textContent = "Time: " + time;
+currentTime.textContent = time;
 
 
 // for day
