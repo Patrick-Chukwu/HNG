@@ -1,2 +1,8 @@
-# HNG
-HNG Tasks
+# Stage-one Task
+## Instruction
+- Slack ID
+- Time in UTC
+- Current day
+- picture
+- vision
+- reference links
